@@ -9,7 +9,7 @@
     <tr>
 <!--      <th scope="col">#</th>-->
       <th class="text-center" scope="col">Name</th>
-      <th class="text-center" scope="col">Title</th>
+<!--      <th class="text-center" scope="col">Title</th>-->
       <th class="text-center" scope="col">Content</th>
     </tr>
     </thead>
@@ -19,8 +19,8 @@
         {% for things in all_items %}
 
        <tr>
-           <td>{{things.name}}</td>
-           <td>{{things.title}}</td>
+           <td><center>{{things.name}}</center></td>
+<!--           <td>{{things.title}}</td>-->
 <!--           <td>{{things.content}}</td>-->
 <!--           <td><center><a href="{% url 'todo:delete_view' things.id %}">DELETE</a></center></td>-->
 <!--           <td><center><a href="{% url 'todo:todo_view' things.id %}">VIEW</a></center></td>-->
